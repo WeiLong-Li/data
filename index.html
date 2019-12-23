@@ -71,8 +71,8 @@
      dataurl =  dataurl.replace(/^data:image\/\w+;base64,/, "");
       // console.log(dataurl)
       $.ajax({
-        // url: 'http://2b8j281922.zicp.vip/person',
-        url:"http://localhost:8000/person",
+        url: 'http://2b8j281922.zicp.vip/person',
+//         url:"http://localhost:8000/person",
         data: dataurl,
         type: 'post',
         dataType: 'json',
